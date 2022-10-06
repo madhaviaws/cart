@@ -11,7 +11,7 @@ pipeline {
                 steps {
 
                     sh "echo installing jslint"
-                    sh "npm i jslint"
+                  //  sh "npm i jslint"
                     
                 }      
             }
