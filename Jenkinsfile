@@ -1,11 +1,11 @@
 pipeline {
-    agent any {
+    agent any 
         stages{
-            stage ('Downloading the Dependencies') {
-                steps{
-                    sh "npm install"
-                }
-            }
+           // stage ('Downloading the Dependencies') {
+             //   steps{
+               //     sh "npm install"
+               // }
+            //}
 
             stage ('Lint Checks'){
                 steps {
@@ -16,5 +16,5 @@ pipeline {
                 }      
             }
         }
-    }
+    
 }
