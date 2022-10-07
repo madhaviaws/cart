@@ -27,5 +27,5 @@
    //     }
     
 //}
-env.COMPONENT=cart
+env.COMPONENT="cart"
 nodejs()
