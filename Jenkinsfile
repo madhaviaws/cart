@@ -28,4 +28,5 @@
     
 //}
 env.COMPONENT="cart"
+env.APPTYPE="nodejs"
 nodejs()
